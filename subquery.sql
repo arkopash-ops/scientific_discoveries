@@ -1,0 +1,8 @@
+-- 1. Discoveries by Einstein
+-- 2. Scientists who have any discovery with impact_score > 90
+-- 3. Discoveries with impact_score above average
+-- 4. Scientists with the maximum number of discoveries
+-- 5. Scientists with their highest-impact discovery
+-- 6. Highest impact discovery per field
+-- 7. Scientists whose discoveries are all above 85 impact_score
+-- 8. Most recent discovery of each scientist

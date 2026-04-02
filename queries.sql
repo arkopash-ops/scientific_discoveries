@@ -1,0 +1,12 @@
+-- 01. List all scientists
+-- 02. List all discoveries
+-- 03. Find all discoveries made in 1905
+-- 04. Find all scientists from India
+-- 05. List all discoveries along with scientist names
+-- 06. Find all discoveries with impact_score greater than 90
+-- 07. Count discoveries per scientist
+-- 08. Top 3 discoveries by impact_score
+-- 09. Average impact score per scientist
+-- 10. Scientists with more than 3 discoveries
+-- 11. Scientists who discovered something in the 19th century (1800-1899)
+-- 12. Average impact score by field
