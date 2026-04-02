@@ -1,0 +1,5 @@
+-- 1. Write a function to display all scientists.
+-- 2. Create a function to return the total number of scientists.
+-- 3. Write a function that takes scientist_id and returns their name.
+-- 4. Create a function to list all discoveries made after a given year.
+-- 5. Write a function to calculate the average impact_score.
