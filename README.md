@@ -1,6 +1,6 @@
 # Scientific Discoveries Database
 
-This project contains a PostgreSQL database designed to store and query information about prominent scientists and their notable discoveries. It provides a structured way to explore scientific achievements across different fields, countries, and time periods.  
+This project contains a PostgreSQL database designed to store and query information about prominent scientists and their notable discoveries. It provides a structured way to explore scientific achievements across different fields, countries, and time periods. 
 
 ---
 
@@ -45,7 +45,9 @@ CREATE DATABASE scientific_discoveries;
 - Run the commands in `insert.sql` to populate scientists and discoveries.
 
 4. **Run queries:**
-- Use `queries.sql` to explore the data. Subqueries are included in `subqueries.sql`.
+- Use `queries.sql` to explore the data.
+- Use `subqueries.sql` for queries using subqueries.
+- Use `cte_queries.sql` for queries using Common Table Expressions (CTEs).
 
 ---
 
@@ -56,4 +58,4 @@ CREATE DATABASE scientific_discoveries;
 - `insert.sql` – Inserts sample data for scientists and discoveries.
 - `queries.sql` – Common queries to retrieve and analyze data.
 - `subqueries.sql` – Advanced queries using subqueries.
-
+- `cte_queries.sql` – Queries demonstrating Common Table Expressions (CTEs).
