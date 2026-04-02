@@ -1,0 +1,1 @@
+CREATE DATABASE scientific_discoveries;
