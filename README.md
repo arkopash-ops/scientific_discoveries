@@ -4,6 +4,32 @@ This project contains a PostgreSQL database designed to store and query informat
 
 ---
 
+## Folder Structure
+```text
+ScienceDB/
+│
+├── schema/
+│   ├── db.sql                  # Database creation commands
+│   └── table.sql               # Table creation scripts
+│
+├── data/
+│   └── insert.sql              # Insert statements
+│
+├── queries/
+│   ├── queries.sql             # Simple queries
+│   ├── cte_queries.sql         # CTE (Common Table Expression) queries
+│   └── subquery.sql            # Subqueries
+│
+├── plpgsql/
+│   ├── basic.sql               # Basic PL/pgSQL blocks
+│   ├── conditional.sql         # Conditional statements
+│   └── loop.sql                # Loop examples
+│
+└── README.md
+```
+
+---
+
 ## Database Structure
 
 The database `scientific_discoveries` has two main tables:
