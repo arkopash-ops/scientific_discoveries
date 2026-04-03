@@ -23,6 +23,7 @@ ScienceDB/
 ├── plpgsql/
 │   ├── basic.sql               # Basic PL/pgSQL blocks
 │   ├── conditional.sql         # Conditional statements
+│   ├── crud.sql                # crud function
 │   └── loop.sql                # Loop examples
 │
 └── README.md
@@ -81,6 +82,7 @@ CREATE DATABASE scientific_discoveries;
     - `basic.sql` – Basic PL/pgSQL block examples.
     - `conditional.sql` – Examples of conditional logic (IF, CASE).
     - `loop.sql` – Examples of loops (FOR, WHILE, DO WHILE) for iterative operations.
+    - `crud.sql` – Examples of crud on both `scientists` and `discoveries` tables.
 
 ---
 
@@ -95,3 +97,4 @@ CREATE DATABASE scientific_discoveries;
 - `basic.sql` - Basic PL/pgSQL procedural blocks.
 - `conditional.sql` - Conditional logic examples in PL/pgSQL.
 - `loop.sql` - Loop examples in PL/pgSQL.
+- `crud.sql` - crud function examples in PL/pgSQL.
