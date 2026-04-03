@@ -1,6 +1,6 @@
 # Scientific Discoveries Database
 
-This project contains a PostgreSQL database designed to store and query information about prominent scientists and their notable discoveries. It provides a structured way to explore scientific achievements across different fields, countries, and time periods. 
+This project contains a PostgreSQL database designed to store and query information about prominent scientists and their notable discoveries. It provides a structured way to explore scientific achievements across different fields, countries, and time periods. The project now also includes PL/pgSQL blocks for procedural logic and advanced database operations.
 
 ---
 
@@ -65,15 +65,22 @@ CREATE DATABASE scientific_discoveries;
 ```
 
 2. **Create tables:**
-- Run the SQL commands in `table.sql`.
+- Run the SQL commands in `schema/table.sql`.
 
 3. **Insert sample data:**
-- Run the commands in `insert.sql` to populate scientists and discoveries.
+- Run the commands in `data/insert.sql` to populate scientists and discoveries.
 
 4. **Run queries:**
-- Use `queries.sql` to explore the data.
-- Use `subqueries.sql` for queries using subqueries.
-- Use `cte_queries.sql` for queries using Common Table Expressions (CTEs).
+- Use the scripts in the `queries/` folder for queries examples:
+    - `queries.sql` - to explore the data.
+    - `subqueries.sql` - for queries using subqueries.
+    - `cte_queries.sql` - for queries using Common Table Expressions (CTEs).
+
+5. **Run PL/pgSQL blocks:**
+- Use the scripts in the `plpgsql/` folder for procedural examples:
+    - `basic.sql` – Basic PL/pgSQL block examples.
+    - `conditional.sql` – Examples of conditional logic (IF, CASE).
+    - `loop.sql` – Examples of loops (FOR, WHILE, DO WHILE) for iterative operations.
 
 ---
 
@@ -85,3 +92,6 @@ CREATE DATABASE scientific_discoveries;
 - `queries.sql` – Common queries to retrieve and analyze data.
 - `subqueries.sql` – Advanced queries using subqueries.
 - `cte_queries.sql` – Queries demonstrating Common Table Expressions (CTEs).
+- `basic.sql` - Basic PL/pgSQL procedural blocks.
+- `conditional.sql` - Conditional logic examples in PL/pgSQL.
+- `loop.sql` - Loop examples in PL/pgSQL.
