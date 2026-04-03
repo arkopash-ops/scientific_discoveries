@@ -60,7 +60,8 @@ BEGIN
         d.year As year
     FROM discoveries d
     JOIN scientists s ON d.scientist_id = s.scientist_id
-    WHERE d.year > y;
+    WHERE d.year > y
+    ORDER BY d.year;
 END;
 $$ LANGUAGE plpgsql;
 
